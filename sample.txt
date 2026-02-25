@@ -1,0 +1,129 @@
+HPE GreenLake Knowledge Base
+
+--------------------------------------------------
+Question: How to add a service subscription to workspace?
+Answer:
+1. Login to GreenLake Cloud.
+2. Click Global Navigation Menu.
+3. Navigate to Services → Manage Service Subscription.
+4. Click Add Service Subscription.
+5. Enter the subscription key received via email.
+6. Click Next.
+7. Assign tags if required (optional).
+8. Manage showback rates if required (optional).
+9. Review details.
+10. Click Finish.
+
+Prerequisites:
+- User must have Workspace Administrator role or permission to modify subscriptions.
+- Services must be set up before adding subscription.
+- Subscription key must be received from HPE.
+
+--------------------------------------------------
+Question: How to view service subscriptions?
+Answer:
+1. Go to Services → Manage Service Subscription.
+2. View subscription status, expiration date, tier, and type.
+
+--------------------------------------------------
+Question: How to remove a service subscription?
+Answer:
+1. Go to Services → Manage Service Subscription.
+2. Select the subscription.
+3. Click Actions → Remove Subscriptions.
+4. Confirm removal.
+
+Note:
+- Workspace Administrator role required.
+- Tags are removed after deletion.
+
+--------------------------------------------------
+Question: How to convert workspace to MSP mode?
+Answer:
+1. Login as workspace administrator.
+2. Navigate to Workspace Menu → Manage Workspace.
+3. Click Manage Workspace Type.
+4. Check eligibility.
+5. Remove assignments and subscriptions from devices.
+6. Remove unsupported services.
+7. Click "Convert to MSP mode" button.
+8. Click "Yes, Convert Now" button.
+9. Workspace becomes temporarily unavailable during conversion.
+
+--------------------------------------------------
+Question: How to disable MSP mode?
+Answer:
+1. Login as workspace administrator.
+2. Go to Manage Workspace → Manage Workspace Type.
+3. Review and delete tenant workspaces.
+4. Click "Convert to Standard Enterprise Mode".
+5. Click "Yes, Convert Now".
+
+--------------------------------------------------
+Question: How to reset password in GreenLake?
+Answer:
+1. Go to https://greenlake.cloud/login
+2. Click "Forgot Password".
+3. Enter registered email address.
+4. Click reset link from email.
+5. Create new password with:
+   - Minimum 12 characters
+   - One uppercase letter
+   - One lowercase letter
+   - One number
+   - One special character
+6. Submit and login.
+
+--------------------------------------------------
+Question: How to invite users to workspace?
+Answer:
+1. Go to Manage Workspace.
+2. Open Workspace Identity & Access.
+3. Click Invite Users.
+4. Send sign-up link.
+
+--------------------------------------------------
+Question: How to delete a user?
+Answer:
+1. Go to Workspace Identity & Access → Users.
+2. Select user.
+3. Click Delete.
+4. Confirm deletion.
+
+--------------------------------------------------
+Question: How to view audit logs?
+Answer:
+1. Go to Manage Workspace.
+2. Click Audit Log.
+3. View login, logout, and activity details.
+
+--------------------------------------------------
+Question: How to create user roles?
+Answer:
+1. Go to Workspace Identity & Access → Roles & Permissions.
+2. Click Create Role.
+3. Select service and permissions.
+4. Review and finish.
+
+--------------------------------------------------
+Question: How to add devices using CSV?
+Answer:
+1. Navigate to Devices → Devices Inventory.
+2. Click Add Devices.
+3. Upload CSV file with device details.
+4. Assign tags if required.
+
+--------------------------------------------------
+Question: How to assign devices to a service?
+Answer:
+1. Go to Devices Inventory.
+2. Select devices.
+3. Click Assign to Service.
+4. Select workspace and service instance.
+
+--------------------------------------------------
+Question: How to remove device subscription from service?
+Answer:
+1. Go to Devices Inventory → Assigned & Subscribed.
+2. Select device.
+3. Click Remove Assignment.
